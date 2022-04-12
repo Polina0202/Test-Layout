@@ -7,3 +7,153 @@ html,
 body {
 	height: 100%;
 }
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+        display: flex;
+}
+
+.col-wrapper-end
+{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.col-wrapper-center
+{
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn
+{
+  font-weight: 600;
+}
+
+.btn-dark, .btn-hover:hover
+{
+  border: 2px solid black;
+}
+
+.btn-hover:hover
+{
+  transition: all 0.7s ease;
+  background: white;
+  color: black;
+}
+
+.btn-hover-green
+{
+ border: 2px solid green;
+}
+
+.btn-hover-green:hover
+{
+  transition: all 0.7s ease;
+  background: white;
+  color: green;
+}
+
+.pictures
+{
+  height: 100px;
+  background: pink;
+}
+
+.center
+{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-wight
+{
+  width: 100%;
+}
+
+
+.size-margin
+{
+  min-height: 200px;
+  margin: 1% 1%;
+}
+
+.flex-between
+{
+  justify-content: space-between;
+}
+
+.flex-column
+{
+  flex-direction: column;
+}
+
+.flex-form
+{
+ display: flex;
+}
+
+.text-form
+{
+  min-width: 100px;
+}
+
+.flex-end
+{
+  justify-content: flex-end;
+}
+
+.menu-xs
+ {
+   display: none; 
+ }
+
+.menu-button-xs
+{
+  color: green;
+  cursor: pointer;
+}
+
+.footer-border
+{
+   border-top: solid red;
+}
+
+.menu-button-xs:hover
+{
+  transition: all 0.7s ease;
+  color: black;
+}
+
+@media (max-width: 576px) 
+{
+  .display-none
+   {
+     display:none;
+   }
+  
+  .menu-xs
+   {
+     display: inline; 
+   }
+}
+
+.menu-button-xs
+{
+  width: 30px;
+  height: 30px;
+}
