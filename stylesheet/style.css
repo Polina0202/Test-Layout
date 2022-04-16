@@ -113,6 +113,7 @@ body {
 .btn
 {
   font-weight: 600;
+  padding: 8px 50px;
 }
 
 .btn-dark, .btn-hover:hover
@@ -274,4 +275,11 @@ header a
   max-width: 910px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.grid
+{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
 }
