@@ -39,6 +39,26 @@ body {
   justify-content: space-between;
 }
 
+.div-padding
+{
+  padding: 1em;
+}
+
+.block-margin
+{
+  margin: 0 2em;
+}
+
+.items-margin
+{
+  margin: 1em 0;
+}
+
+.div-margin
+{
+  margin: 1em;
+}
+
 .btn
 {
   font-weight: 600;
